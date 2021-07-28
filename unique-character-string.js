@@ -9,3 +9,14 @@ function uniqueString(str){
     return unq;
 }
 console.log(uniqueString(stringg));
+
+
+/*
+Map 
+filter 
+reduce 
+functions 
+split
+splice
+
+*/
