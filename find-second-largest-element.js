@@ -5,3 +5,10 @@ function secondLargestElement(arr) {
   return sortedArray[1];
 }
 console.log(secondLargestElement(arr));
+
+// second method
+
+function getSecondLargest(arr) {
+  return Math.max(...arr.slice(1));
+}
+console.log(getSecondLargest(arr));
